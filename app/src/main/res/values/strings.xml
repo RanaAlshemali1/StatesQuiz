@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">States Quiz</string>
+    <string name="overview">Curious to see how well do you know the 50 state capitals?\nTest yourself by taking our Quiz! We will ask you about 6 states chosen randomly ..
+\nLets See How Good You Are!!</string>
+    <string name="beforeStart">
+        1. You\'ll be asked 6 questions.
+\n2. For each, you\'ll be provided with 3 options.
+\n3. You can check your answer by clicking the \"Check Answer\" button
+\n4. To move to the next question, swipe right to left
+\n\nWhen READY, Swipe to Left ← to Start
+    </string>
+</resources>

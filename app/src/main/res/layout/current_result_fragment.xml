@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:id="@+id/currentResultContainer">
+
+    <TextView
+        android:id="@+id/prompt"
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="Your Result is "
+        android:textSize="24dp" />
+
+    <TextView
+        android:id="@+id/currentResult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:gravity="center"
+        android:scrollbars="vertical|horizontal"
+        android:text="\?/6"
+        android:textSize="60dp" />
+
+    <Button
+        android:id="@+id/clickToDisplay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="Click Here To Diplay Your Result"
+        android:textAllCaps="false"/>
+
+    <Button
+        android:id="@+id/goToPrevResult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Previous Results"
+        android:textAllCaps="false" />
+    <Button
+        android:id="@+id/homescreen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAllCaps="false"
+        android:text="Go To Home Screen" />
+
+</LinearLayout>

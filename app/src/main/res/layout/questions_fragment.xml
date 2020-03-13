@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center">
+
+    <TextView
+        android:id="@+id/qNum"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="20dp"
+        android:text=""
+        android:textSize="24dp" />
+
+    <TextView
+        android:id="@+id/question"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="10dp"
+        android:gravity="center"
+        android:text="Question"
+        android:textSize="24dp" />
+
+    <TextView
+        android:id="@+id/testing"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="10dp"
+        android:gravity="center"
+        android:text="YOU MUST CHOOSE"
+        android:textSize="14dp" />
+    <RadioGroup
+        android:id="@+id/options"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+        <RadioButton
+            android:id="@+id/optionA"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="A. This is option A" />
+
+        <RadioButton
+            android:id="@+id/optionB"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="B.  This is option B" />
+
+        <RadioButton
+            android:id="@+id/optionC"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="C.  This is option C" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/checkAnswer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Check Answer" />
+
+</LinearLayout>
